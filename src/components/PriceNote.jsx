@@ -63,14 +63,14 @@ const PriceNote = () => {
           La Actualidad
         </h3>
 
-        {/* GIF de actualidad */}
-        <div className="flex justify-center mb-6">
-          <img
-            src="/actualidad.gif"
-            alt="Imagen animada de actualidad"
-            className="max-w-xs md:max-w-sm w-full rounded-lg shadow-md mx-auto"
-          />
-        </div>
+{/* GIF de actualidad */}
+<div className="flex justify-center mb-6">
+  <img
+    src="actualidad.gif"
+    alt="Imagen animada de actualidad"
+    className="max-w-xs md:max-w-sm w-full rounded-lg shadow-md mx-auto"
+  />
+</div>
 
         {/* Texto descriptivo */}
         <p className="text-base text-black dark:text-gray-300 leading-relaxed text-center">
