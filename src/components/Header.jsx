@@ -19,7 +19,7 @@ const Header = () => {
           className="mr-3 h-6 sm:h-9"
           alt="Logo GBDstudio"
         />
-        <span className="self-center whitespace-nowrap text-xl font-semibold text-black">
+        <span className="self-center whitespace-nowrap text-xl font-semibold text-black dark:text-black">
           GBD
         </span>
       </NavbarBrand>
@@ -30,27 +30,27 @@ const Header = () => {
       {/* Links del menú */}
       <NavbarCollapse>
         {/* Inicio → lleva al comienzo de la página */}
-        <NavbarLink href="#inicio" className="text-black">
+        <NavbarLink href="#inicio" className="text-black dark:text-black">
           Inicio
         </NavbarLink>
 
         {/* Quiénes somos → lleva al acordeón InfoAccordion */}
-        <NavbarLink href="#quienes-somos" className="text-black">
+        <NavbarLink href="#quienes-somos" className="text-black dark:text-black">
           Quiénes somos
         </NavbarLink>
 
         {/* Servicios → lleva a la sección de servicios */}
-        <NavbarLink href="#servicios" className="text-black">
+        <NavbarLink href="#servicios" className="text-black dark:text-black">
           Servicios
         </NavbarLink>
 
         {/* Precios → lleva a la tabla de precios */}
-        <NavbarLink href="#precios" className="text-black">
+        <NavbarLink href="#precios" className="text-black dark:text-black">
           Precios
         </NavbarLink>
 
         {/* Actualidad → lleva al bloque final de PyGs */}
-        <NavbarLink href="#actualidad" className="text-black">
+        <NavbarLink href="#actualidad" className="text-black dark:text-black">
           Actualidad
         </NavbarLink>
       </NavbarCollapse>

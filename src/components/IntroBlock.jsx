@@ -6,7 +6,7 @@ const IntroBlock = () => {
     <figure className="mx-auto max-w-screen-md text-center my-12">
       {/* Icono de comillas */}
       <svg
-        className="mx-auto mb-3 h-10 w-10 text-gray-400 dark:text-gray-600"
+        className="mx-auto mb-3 h-10 w-10 text-gray-400 dark:text-gray-400"
         aria-hidden="true"
         xmlns="http://www.w3.org/2000/svg"
         fill="currentColor"
@@ -17,7 +17,7 @@ const IntroBlock = () => {
 
       {/* Texto introductorio */}
       <Blockquote>
-        <p className="text-2xl font-medium italic text-gray-900 dark:text-white">
+        <p className="text-2xl font-medium italic text-gray-900 dark:text-gray-900">
           “<strong>GBD Studio & PyGs</strong> trabajan juntos para brindar herramientas digitales útiles para tu
           emprendimiento. Diseñamos <span className="font-semibold">invitaciones digitales personalizadas</span>,{" "}
           <span className="font-semibold">páginas web</span> y{" "}

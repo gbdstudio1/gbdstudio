@@ -13,47 +13,45 @@ const PriceNote = () => {
       {/* ==================== */}
       {/* Sección de Dudas o Preguntas */}
       {/* ==================== */}
-      <section id="preguntas" className="bg-red-200 dark:bg-gray-800 p-6 rounded-lg mb-12">
-        <h3 className="text-2xl font-serif font-bold text-black dark:text-white mb-6 text-center">
-           Preguntas Frecuentes
-        </h3>
+      <section id="preguntas" className="bg-red-200 dark:bg-red-200 p-6 rounded-lg mb-12">
+  <h3 className="text-2xl font-serif font-bold text-black dark:text-black mb-6 text-center">
+    Preguntas Frecuentes
+  </h3>
 
-        <Accordion>
-          {/* Pregunta 1 */}
-          <AccordionPanel>
-            <AccordionTitle>¿Cómo contratar el servicio?</AccordionTitle>
-            <AccordionContent>
-              <p className="text-black dark:text-gray-300">
-                Podés ponerte en contacto con nosotros a través de WhatsApp o correo electrónico.
-                Coordinamos juntos los detalles de lo que necesitás y te guiamos paso a paso.El wasapp lo podes encontrar en el pie de pagina abajo de todo.
-              </p>
-            </AccordionContent>
-          </AccordionPanel>
+  <Accordion>
+    <AccordionPanel>
+      <AccordionTitle>¿Cómo contratar el servicio?</AccordionTitle>
+      <AccordionContent>
+        <p className="text-black dark:text-black">
+          Podés ponerte en contacto con nosotros a través de WhatsApp o correo electrónico.
+          Coordinamos juntos los detalles de lo que necesitás y te guiamos paso a paso. 
+          El WhatsApp lo podés encontrar en el pie de página abajo de todo.
+        </p>
+      </AccordionContent>
+    </AccordionPanel>
 
-          {/* Pregunta 2 */}
-          <AccordionPanel>
-            <AccordionTitle>¿Cuál es el tiempo de entrega?</AccordionTitle>
-            <AccordionContent>
-              <p className="text-black dark:text-gray-300">
-                Depende del tipo de proyecto: invitaciones digitales suelen estar listas en pocos días,
-                mientras que páginas web o aplicaciones requieren más tiempo.
-                Siempre acordamos los plazos antes de comenzar.
-              </p>
-            </AccordionContent>
-          </AccordionPanel>
+    <AccordionPanel>
+      <AccordionTitle>¿Cuál es el tiempo de entrega?</AccordionTitle>
+      <AccordionContent>
+        <p className="text-black dark:text-black">
+          Depende del tipo de proyecto: invitaciones digitales suelen estar listas en pocos días,
+          mientras que páginas web o aplicaciones requieren más tiempo.
+          Siempre acordamos los plazos antes de comenzar.
+        </p>
+      </AccordionContent>
+    </AccordionPanel>
 
-          {/* Pregunta 3 */}
-          <AccordionPanel>
-            <AccordionTitle>¿Los precios se pueden adaptar?</AccordionTitle>
-            <AccordionContent>
-              <p className="text-black dark:text-gray-300">
-                Sí, los precios pueden adaptarse al momento y  las necesidades de cada proyecto.
-                Queremos que cada persona encuentre una opción accesible y acorde a su realidad.
-              </p>
-            </AccordionContent>
-          </AccordionPanel>
-        </Accordion>
-      </section>
+    <AccordionPanel>
+      <AccordionTitle>¿Los precios se pueden adaptar?</AccordionTitle>
+      <AccordionContent>
+        <p className="text-black dark:text-black">
+          Sí, los precios pueden adaptarse al momento y a las necesidades de cada proyecto.
+          Queremos que cada persona encuentre una opción accesible y acorde a su realidad.
+        </p>
+      </AccordionContent>
+    </AccordionPanel>
+  </Accordion>
+</section>
 
       {/* ==================== */}
       {/* Sección de Actualidad */}
