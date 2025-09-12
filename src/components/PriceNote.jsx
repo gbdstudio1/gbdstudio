@@ -22,7 +22,7 @@ const PriceNote = () => {
     <AccordionPanel>
       <AccordionTitle>¿Cómo contratar el servicio?</AccordionTitle>
       <AccordionContent>
-        <p className="text-black dark:text-black">
+        <p className="text-black dark:text-white">
           Podés ponerte en contacto con nosotros a través de WhatsApp o correo electrónico.
           Coordinamos juntos los detalles de lo que necesitás y te guiamos paso a paso. 
           El WhatsApp lo podés encontrar en el pie de página abajo de todo.
@@ -33,7 +33,7 @@ const PriceNote = () => {
     <AccordionPanel>
       <AccordionTitle>¿Cuál es el tiempo de entrega?</AccordionTitle>
       <AccordionContent>
-        <p className="text-black dark:text-black">
+        <p className="text-black dark:text-white">
           Depende del tipo de proyecto: invitaciones digitales suelen estar listas en pocos días,
           mientras que páginas web o aplicaciones requieren más tiempo.
           Siempre acordamos los plazos antes de comenzar.
@@ -44,7 +44,7 @@ const PriceNote = () => {
     <AccordionPanel>
       <AccordionTitle>¿Los precios se pueden adaptar?</AccordionTitle>
       <AccordionContent>
-        <p className="text-black dark:text-black">
+        <p className="text-black dark:text-white">
           Sí, los precios pueden adaptarse al momento y a las necesidades de cada proyecto.
           Queremos que cada persona encuentre una opción accesible y acorde a su realidad.
         </p>

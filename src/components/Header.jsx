@@ -25,7 +25,8 @@ const Header = () => {
       </NavbarBrand>
 
       {/* Botón hamburguesa (para pantallas chicas) */}
-      <NavbarToggle />
+      
+       <NavbarToggle className="text-black dark:text-black" />
 
       {/* Links del menú */}
       <NavbarCollapse>
