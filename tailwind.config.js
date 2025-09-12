@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+import flowbite from 'flowbite/plugin'
+
 export default {
   content: [
     "./index.html",
@@ -8,7 +10,6 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [
-    require('flowbite/plugin')
-  ],
+  darkMode: false, // 👈 Desactiva el modo oscuro
+  plugins: [flowbite],
 }

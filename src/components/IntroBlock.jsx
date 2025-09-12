@@ -20,7 +20,7 @@ const IntroBlock = () => {
         <p className="text-2xl font-medium italic text-gray-900 dark:text-white">
           “<strong>GBD Studio & PyGs</strong> trabajan juntos para brindar herramientas digitales útiles para tu
           emprendimiento. Diseñamos <span className="font-semibold">invitaciones digitales personalizadas</span>,{" "}
-          <span className="font-semibold">páginas web sencillas</span> y{" "}
+          <span className="font-semibold">páginas web</span> y{" "}
           <span className="font-semibold">folletos electrónicos</span> en formato de tarjeta,
           para que tu negocio tenga presencia moderna, práctica y accesible.”
         </p>

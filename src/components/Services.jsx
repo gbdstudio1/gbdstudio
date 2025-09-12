@@ -17,7 +17,7 @@ const Services = () => {
       {/* Tarjeta 1: Páginas Web Sencillas */}
       <Card className="shadow-md">
         <h5 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
-          🌐 Páginas Web Sencillas
+          🌐 Páginas Web
         </h5>
         <p className="mt-2 text-gray-700 dark:text-gray-400 text-center">
           Soluciones rápidas y funcionales para darle presencia online a tu emprendimiento.

@@ -11,7 +11,7 @@ import {
 const Header = () => {
   return (
     // Navbar principal
-    <Navbar fluid rounded className="bg-slate-400">
+    <Navbar fluid rounded className="bg-slate-400 dark:bg-slate-400">
       {/* Logo y nombre */}
       <NavbarBrand href="#inicio">
         <img
