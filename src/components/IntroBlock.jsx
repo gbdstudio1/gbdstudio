@@ -18,12 +18,13 @@ const IntroBlock = () => {
       {/* Texto introductorio */}
       <Blockquote>
         <p className="text-2xl font-medium italic text-gray-900 dark:text-gray-900">
-          “<strong>GBD Studio & PyGs</strong> trabajan juntos para brindar herramientas digitales útiles para tu
-          emprendimiento. Diseñamos <span className="font-semibold">invitaciones digitales personalizadas</span>,{" "}
-          <span className="font-semibold">páginas web</span> y{" "}
-          <span className="font-semibold">folletos electrónicos</span> en formato de tarjeta,
-          para que tu negocio tenga presencia moderna, práctica y accesible.”
-        </p>
+  “<strong>GBD Studio</strong> crea herramientas digitales útiles para tu
+  emprendimiento. Diseñamos <span className="font-semibold">invitaciones digitales personalizadas</span>,{" "}
+  <span className="font-semibold">páginas web</span> y{" "}
+  <span className="font-semibold">folletos electrónicos</span> en formato de tarjeta,
+  para que tu negocio tenga una presencia moderna, práctica y accesible.”
+</p>
+
       </Blockquote>
     </figure>
   );
