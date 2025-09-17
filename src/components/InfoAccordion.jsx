@@ -19,7 +19,7 @@ const InfoAccordion = () => {
           <AccordionTitle>Qué es GBD Studio</AccordionTitle>
           <AccordionContent>
             <p className="mb-2 text-black dark:text-gray-400">
-              <strong>GBD Studio</strong> está dedicado al desarrollo de páginas web y soluciones digitales prácticas.
+              <strong>GBD Studio</strong> está dedicado al desarrollo de páginas web, creacion de sofware y soluciones digitales prácticas.
               Su enfoque es crear herramientas funcionales y accesibles para personas que necesitan una página, un enlace
               o un espacio en línea que potencie su emprendimiento, negocio o proyecto personal. La prioridad es ofrecer
               resultados claros y útiles, pensados para la vida real.

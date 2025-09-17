@@ -47,10 +47,10 @@ const Services = () => {
       {/* Tarjeta 4: Folletos Electrónicos */}
       <Card className="shadow-md">
         <h5 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
-          📰 Folletos Electrónicos
+          📰 creacion de software personalizado
         </h5>
         <p className="mt-2 text-gray-700 dark:text-gray-400 text-center">
-          Representación digital de tarjetas y folletos para difundir tu negocio fácilmente.
+          Adaptado a tu necesidad, vos me decis que necesitas y nosotros lo creamos.
         </p>
       </Card>
     </section>
