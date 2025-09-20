@@ -18,7 +18,7 @@ const Prices = () => {
       {/* ==================== */}
       {/* Título de la sección */}
       {/* ==================== */}
-      <h2 className="text-3xl font-serif font-bold text-gray-900 dark:text-white mb-6 text-center">
+      <h2 className="text-3xl font-serif font-bold text-gray-900 dark:text-gray-900 mb-6 text-center">
         Nuestros Precios
       </h2>
 
