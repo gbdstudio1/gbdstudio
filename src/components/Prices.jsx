@@ -112,12 +112,12 @@ const Prices = () => {
       {/* =============================== */}
       <div className="mt-12">
         {/* Título centrado */}
-        <h3 className="text-2xl font-serif font-bold text-center text-gray-900 dark:text-white">
+        <h3 className="text-2xl font-serif font-bold text-center text-gray-900 dark:text-gray-900">
           Importante a saber sobre los software
         </h3>
 
         {/* Párrafo explicativo */}
-        <p className="mt-4 text-base text-gray-700 dark:text-gray-300 text-center max-w-2xl mx-auto">
+        <p className="mt-4 text-base text-gray-900 dark:text-gray-900 text-center max-w-2xl mx-auto">
           Un software es una herramienta digital diseñada para resolver
           necesidades específicas. En GBD Studio trabajamos a partir de tus
           ideas y lo que realmente necesita tu comercio o emprendimiento, para
